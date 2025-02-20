@@ -1,0 +1,237 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 ;
+    max-width: 1440px;
+}
+.cont-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #252b42;
+}
+.nav-span{
+    margin-right: 114px;
+}
+
+.App{
+    background-image: url(https://devoe-bella-onoje.netlify.app/img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px 0 178px;
+}
+button{
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+}
+.button1{
+    background-color: orange;
+    border-radius: 30px;
+    width: 236px;
+    height: 68px;
+    border: none;
+    margin: 50px;
+}
+.button2{
+    background-color: rgba(255, 255, 255, 0);
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    border: 0.2px solid white;
+}
+.restapp-head{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+    font-family: Montserrat;
+}
+.restapp-title{
+    color: white;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+.restapp-about{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+.footerCont{
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0;
+}
+.App2{
+    background-image: url(https://devoe-bella-onoje.netlify.app/img/download-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 130px;
+    margin-top: -400px;
+}
+.restapp-head2{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 36px;
+    font-family: Montserrat;
+}
+.restapp-title2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.buttonContainer2{
+    margin-top: 40px;
+}
+.button3{
+    background-color: orange;
+    border-radius: 15px;
+    width: 150px;
+    height: 68px;
+    border: none;
+    margin: 50px;
+}
+.button4{
+    background-color: rgba(255, 255, 255, 0);
+    width: 150px;
+    height: 68px;
+    border-radius: 15px;
+    border: 0.2px solid white;
+}
+.phoneImg > img{
+    width: 680px;
+    height: 560px;
+    overflow: hidden;
+}
+.phoneImg2 > img{
+    width: 570px;
+    height: 540px;
+    overflow: hidden;
+}
+.phoneImg{
+    position: relative;
+    top: -160px;
+    margin-left: 280px;
+}
+.phoneImg2{
+    position: relative;
+    top: -650px;
+    margin-left: 574px;
+}
+.phoneImgCont{
+    margin-bottom: 70px;
+}
+.headerMain{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 70px;
+    position: relative;
+    top: -520px;
+}
+.photoPhoneMain1 > img{
+    width: 580px;
+    height: 550px;
+}
+.text1{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px;
+}
+.text2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px;
+}
+.text3{
+    font-size: 26px;
+    color: #252b42;
+    text-align: center;
+    margin: 30px;
+}
+.textMain1{
+    display: block;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+.photoPhoneMain1{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -460px;
+}
+.photoPhoneMain2{
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -490px;
+}
+.photoPhoneMain2 > img{
+    width: 580px;
+    height: 550px;
+}
+.photoPhoneMain2{
+    flex-direction: row-reverse;
+}
+.textMain2{
+    margin-top: 120px;
+    margin-right: 150px;
+    max-width: 500px;
+    margin-left: 50px;
+}
+.photoPhoneMain2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.lineBorder{
+    width: 1300px;
+    height: 3px;
+    background-color:rgba(122, 120, 120, 0.2);
+    position: relative;
+    top: -650px;
+    margin-left: 120px;
+}
